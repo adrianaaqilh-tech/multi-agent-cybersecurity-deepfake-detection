@@ -1,0 +1,7 @@
+langgraph
+langchain
+langchain-openai
+opencv-python
+numpy
+requests
+pytesseract
