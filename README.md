@@ -113,21 +113,21 @@ The system consists of several components:
 
 The Dynamic Router supports different routing paths:
 
-    User Request
-          ↓
-    Dynamic Router
-          ↓
-    Conditional Routing
-          ↓
+                     User Request
+                          ↓
+                   Dynamic Router
+                          ↓
+                 Conditional Routing
+                          ↓
      ┌───────────────┬───────────────┬───────────────┐
-     ↓               ↓               ↓
-    Cybersecurity   Deepfake        Both
-    Agent           Agent           Agents
+     ↓               ↓               ↓               ↓
+    Cybersecurity   Deepfake        Both          Out of    
+    Agent           Agent           Agents         Scope
      └───────────────┴───────────────┴───────────────┘
-                         ↓
-                  Evidence Agent
-                         ↓
-                  Final Assessment
+                          ↓
+                    Evidence Agent
+                          ↓
+                   Final Assessment
 
 ## Robustness and Fallback
 
